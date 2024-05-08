@@ -12,31 +12,42 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
 $pip_boy_green: (
-  50: #00ee00,
-  100: #00dc00,
-  200: #00c600,
-  300: #00b200,
-  400: #008e00,
-  500: #007d00,
-  600: #007d00,
-  700: #005f00,
-  800: #002f00,
-  900: #000000,
-  contrast: (
-    50: rgba(black, 0.87),
-    100: rgba(black, 0.87),
-    200: rgba(black, 0.87),
-    300: rgba(black, 0.87),
-    400: rgba(black, 0.87),
-    500: rgba(black, 0.87),
-    600: rgba(black, 0.87),
-    700: rgba(black, 0.87),
-    800: rgba(black, 0.87),
-    900: white,
-  ),
+  50: #58f247,
+  100: #58f247,
+  200: #58f247,
+  300: #58f247,
+  400: #58f247,
+  500: #00ee00,
+  600: #00ee00,
+  700: #008e00,
+  800: #005f00,
+  900: #002f00,
+  // 50: #00ee00,
+  // 100: #00dc00,
+  // 200: #00c600,
+  // 300: #00b200,
+  // 400: #008e00,
+  // 500: #007d00,
+  // 600: #007d00,
+  // 700: #005f00,
+  // 800: #002f00,
+  // 900: #000000,
+  contrast:
+    (
+      50: rgba(black, 0.87),
+      100: rgba(black, 0.87),
+      200: rgba(black, 0.87),
+      300: rgba(black, 0.87),
+      400: rgba(black, 0.87),
+      500: rgba(black, 0.87),
+      600: rgba(black, 0.87),
+      700: rgba(black, 0.87),
+      800: rgba(black, 0.87),
+      900: rgba(black, 0.87),
+    ),
 );
 
-$pip_boy_BASIC-primary: mat.define-palette(mat.$pip_boy_green);
+$pip_boy_BASIC-primary: mat.define-palette($pip_boy_green);
 $pip_boy_BASIC-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
@@ -70,4 +81,5 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #000000;
 }
