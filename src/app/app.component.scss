@@ -1,0 +1,11 @@
+
+// Global color variables
+$primary-color: #00ff00; // Pip Boy green
+$secondary-color: #000000; // Black
+$accent-color: #ffffff; // White
+
+.menu {
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: row;
+}

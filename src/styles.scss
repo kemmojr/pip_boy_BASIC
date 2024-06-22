@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Global color variables
+$primary-color: #00ff00; // Pip Boy green
+$secondary-color: #000000; // Black
+$accent-color: #ffffff; // White
+
+// Example usage
+body {
+
+    background-color: $secondary-color;
+    color: $accent-color;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    background-color: $primary-color;
+    color: $accent-color;
+}
