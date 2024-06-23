@@ -9,5 +9,6 @@ import { Component, Input } from '@angular/core';
 })
 export class MenuColumnComponent {
   constructor() {}
-  @Input() text: string = '';;
+  @Input() text: string = '';
+  @Input() boxClass: string = '';
 }

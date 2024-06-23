@@ -1,8 +1,15 @@
 @import '../app.component.scss';
 
-.box {
-    color: $primary-color;
-    border-top: 4px solid $primary-color;
-    border-left: 4px solid $primary-color;
-    border-right: 4px solid $primary-color;
-}
+// Target the first .box instance
+.box-first {
+    border-right: none; // Remove the right border for the first instance
+    border-top: 4px solid $primary-color; // Add top border to the first instance
+    border-left: 4px solid $primary-color; // Add left border to the first instance
+  }
+  
+  // Target the last .box instance
+  .box-last {
+    border-left: none;
+    border-right: 4px solid $primary-color; // Ensure the last instance has no right border
+  }
+  
